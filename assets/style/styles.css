@@ -101,6 +101,8 @@ h1 {
     }
     
     #btn-changer-dark, #btn-changer-light {
-        margin-top: 0;
+        width: 128px;
+        height: 25px;
+        margin-top: 12px;
     }
 }
