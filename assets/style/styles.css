@@ -86,3 +86,21 @@ h1 {
 #hex-code {
     color: white;
 }
+
+@media(max-width: 1160px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    h1, h3 {
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+    
+    #btn-changer-dark, #btn-changer-light {
+        margin-top: 0;
+    }
+}
