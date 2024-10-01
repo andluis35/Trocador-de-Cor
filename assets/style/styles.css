@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.main-content {
+    background-color: #3C3D37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 25vh;
+    position: absolute;
+    top: 37.5%;
+    left: 37.5%;
+    border-radius: 20px;
+    padding: 20px;
+    color: #ECDFCC;
+    font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 16px;
+}
+
+.social-medias-images {
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100vh;
+    background-color: #30258a;
+    border-top: 4px solid #576CBC;
+}
+
+.footer p {
+    font-size: 18px;
+    margin: 0;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.footer a {
+    color: #A5D7E8;
+}
+
+.footer a:hover {
+    color: #7488d8;
+    text-shadow: 0 0 1px black;
+}
+
+.footer a:active {
+    color: #19376D;
+}
+
+#btn-changer-dark, #btn-changer-light {
+    cursor: pointer;
+    width: 128px;
+    height: 50px;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 45px;
+    background: linear-gradient(#161D6F, #0B2F9F);
+    color: #ECDFCC;
+}
+
+#btn-changer-dark:hover, #btn-changer-light:hover {
+    background: linear-gradient(#161D6F, #295F98);
+}
+
+#btn-changer-dark:active, #btn-changer-light:active {
+    background: linear-gradient(#161D6F, #4379F2);
+}
+
+#hex-code {
+    color: white;
+}
